@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Email from './Components/Email';
+import Tut_use_ref from './Components/Tut_use_ref';
+import Pract_components from './Components/Pract_components';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Email/>
+    </>
   );
 }
 
